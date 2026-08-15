@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html --port 8080",
     "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
